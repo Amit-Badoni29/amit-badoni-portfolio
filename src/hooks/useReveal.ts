@@ -45,8 +45,11 @@ export function useReveal() {
         const text = el.textContent ?? '';
         const words = text.split(' ');
         el.innerHTML = words
-          .map((w) => `<span class="inline-block" style="opacity:0;transform:translateY(40px) rotateX(-40deg)">${w}&nbsp;</span>`)
-          .join('');
+          .map(
+            (w) =>
+              `<span class="inline-block align-baseline" style="opacity:0;transform:translateY(40px) rotateX(-40deg)">${w}</span>`
+          )
+          .join(' ');
         const spans = el.querySelectorAll('span');
         gsap.to(spans, {
           opacity: 1,
