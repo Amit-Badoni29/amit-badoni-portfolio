@@ -105,17 +105,17 @@ export const projects = [
     points: [
       'Built a responsive cab booking platform for hill-region travelers with package pricing, private cab booking workflows, and WhatsApp-based booking inquiries.',
     ],
-    image: 'https://images.pexels.com/photos/7258492/pexels-photo-7258492.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+    image: 'https://images.pexels.com/photos/32261661/pexels-photo-32261661.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   {
-    name: 'Hope & Paws',
+    name: 'Paws & Hope',
     subtitle: 'Animal Welfare Platform · Ongoing',
     stack: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Python', 'PostgreSQL'],
     points: [
       'Developing a full-stack animal welfare platform with a Next.js frontend and Python-based backend for adoption, rescue stories, donations, and contact management.',
       'Implementing responsive frontend interfaces and contributing to Python-based REST APIs, PostgreSQL integration, and core application workflows.',
     ],
-    image: 'https://images.pexels.com/photos/32595034/pexels-photo-32595034.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+    image: 'https://images.pexels.com/photos/12195429/pexels-photo-12195429.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
 ];
 
