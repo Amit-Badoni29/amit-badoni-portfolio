@@ -18,19 +18,15 @@ export const skills = [
   },
   {
     category: 'Frontend',
-    items: ['React.js', 'Next.js', 'Tailwind CSS', 'Shadcn/UI'],
+    items: ['React.js', 'Next.js', 'Tailwind CSS'],
   },
   {
     category: 'Backend',
     items: ['Node.js', 'Express.js', 'REST APIs'],
   },
   {
-    category: 'Database',
-    items: ['MongoDB', 'PostgreSQL', 'MySQL'],
-  },
-  {
-    category: 'ORM / ODM',
-    items: ['Prisma ORM', 'Mongoose'],
+    category: 'Database & ORM',
+    items: ['PostgreSQL (Neon)', 'MySQL', 'Prisma ORM'],
   },
   {
     category: 'Tools',
@@ -45,18 +41,15 @@ export const allTechnologies = [
   'Next.js',
   'Node.js',
   'Express.js',
-  'PostgreSQL',
-  'MongoDB',
+  'PostgreSQL (Neon)',
   'MySQL',
   'Prisma ORM',
   'Mongoose',
   'Tailwind CSS',
-  'Shadcn/UI',
   'Git',
   'GitHub',
   'Swagger',
   'Postman',
-  'Redis',
 ];
 
 export const floatingTechs = [
@@ -67,19 +60,19 @@ export const floatingTechs = [
   { label: 'Express', top: '68%', left: '16%', size: 'text-base sm:text-lg', delay: 1.1 },
   { label: 'PostgreSQL', top: '74%', left: '54%', size: 'text-xl sm:text-2xl', delay: 0.6 },
   { label: 'Prisma', top: '24%', left: '34%', size: 'text-lg sm:text-xl', delay: 1.8 },
-  { label: 'MongoDB', top: '56%', left: '40%', size: 'text-base sm:text-lg', delay: 0.9 },
+  { label: 'MySQL', top: '56%', left: '40%', size: 'text-base sm:text-lg', delay: 0.9 },
 ];
 
 export const experience = [
   {
     role: 'Full Stack Developer Intern',
     company: 'Nexzem Technologies',
-    period: 'Apr – Jul 2026',
+    period: 'Apr - Jul 2026',
     location: 'Dehradun, Uttarakhand, India · On-site',
     points: [
-      'Contributing to a multi-tenant ERP/POS platform supporting 8+ business verticals with scalable backend APIs and inventory management.',
+      'Contributing to a multi-tenant ERP/POS platform supporting 8+ business verticals with backend APIs and inventory management features.',
       'Developing RESTful APIs and implementing Role-Based Access Control (RBAC).',
-      'Collaborating on database design and production deployments with the engineering team.',
+      'Collaborated on database schema design and backend development with the engineering team.',
     ],
   },
   {
@@ -95,35 +88,34 @@ export const experience = [
 
 export const projects = [
   {
-    name: 'Local Business Operating System (LBOS)',
+    name: 'VyapOS',
     subtitle: 'Multi-Tenant ERP Platform',
     stack: ['Next.js', 'TypeScript', 'Express.js', 'PostgreSQL', 'Prisma', 'Redis'],
     points: [
-      'Built a scalable multi-tenant ERP platform for local businesses with Role-Based Access Control (Owner, Manager, Cashier).',
-      'Developed Authentication, Business & Outlet Onboarding, Product Catalog, Categories, Product Variants, and Inventory Management modules.',
-      'Designed scalable REST APIs using Express.js, Prisma ORM, PostgreSQL, JWT, Redis, Zod Validation, and Swagger following clean architecture.',
+      'Developed REST APIs and backend modules for product management, categories, subcategories, master inventory, and stock transfer workflows.',
+      'Implemented business-level authorization, validation, pagination, soft deletes, and centralized error handling across modules.',
+      'Built inventory workflows including opening stock, valuation, reorder levels, and stock transfers using Prisma transactions.',
     ],
     image: 'https://images.pexels.com/photos/37594411/pexels-photo-37594411.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   {
-    name: 'Swiggy Clone',
-    subtitle: 'Food Delivery Web App',
-    stack: ['React.js', 'Tailwind CSS'],
+    name: 'HillRide',
+    subtitle: 'Cab Booking Platform',
+    stack: ['Next.js', 'Tailwind CSS'],
     points: [
-      'Built a responsive food delivery web application.',
-      'Integrated REST APIs to display restaurant listings and menus.',
-      'Implemented cart management with a responsive UI.',
+      'Built a responsive cab booking platform for hill-region travelers with package pricing, private cab booking workflows, and WhatsApp-based booking inquiries.',
     ],
     image: 'https://images.pexels.com/photos/7258492/pexels-photo-7258492.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   {
-    name: 'Himalayan Yatra Travels',
-    subtitle: 'Cab Booking Platform',
-    stack: ['Next.js', 'Tailwind CSS'],
+    name: 'Hope & Paws',
+    subtitle: 'Animal Welfare Platform · Ongoing',
+    stack: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Python', 'PostgreSQL'],
     points: [
-      'Built an SEO-optimized cab booking website for hill-region travelers with transparent pricing, private booking workflows, and a WhatsApp-based inquiry system.',
+      'Developing a full-stack animal welfare platform with a Next.js frontend and Python-based backend for adoption, rescue stories, donations, and contact management.',
+      'Implementing responsive frontend interfaces and contributing to Python-based REST APIs, PostgreSQL integration, and core application workflows.',
     ],
-    image: 'https://images.pexels.com/photos/8514722/pexels-photo-8514722.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+    image: 'https://images.pexels.com/photos/32595034/pexels-photo-32595034.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
 ];
 

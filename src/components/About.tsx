@@ -6,7 +6,7 @@ import { OrbitalRing } from './Animations';
 const focusAreas = [
   { icon: Code2, label: 'Frontend', desc: 'React, Next.js, Tailwind' },
   { icon: Server, label: 'Backend', desc: 'Node, Express, REST APIs' },
-  { icon: Database, label: 'Database', desc: 'PostgreSQL, MongoDB, Prisma' },
+  { icon: Database, label: 'Database', desc: 'PostgreSQL, MySQL, Prisma' },
 ];
 
 export function About() {

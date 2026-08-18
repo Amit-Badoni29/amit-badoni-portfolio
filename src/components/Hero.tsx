@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react';
-import { ArrowDown, ArrowUpRight, Github, Linkedin } from 'lucide-react';
+import { ArrowDown, ArrowUpRight, GithubIcon, Download, Linkedin } from 'lucide-react';
 import { gsap } from 'gsap';
 import { personal } from '@/lib/data';
 import { HeroPlanet } from './HeroPlanet';
@@ -48,9 +48,9 @@ export function Hero() {
               {personal.summary}
             </p>
             <div data-hero-actions className="opacity-0 mt-9 flex flex-wrap items-center gap-5">
-              <a href="#projects" className="group inline-flex items-center gap-3 bg-accent text-on-accent px-6 py-3.5 rounded-full font-medium text-sm hover:shadow-[0_0_30px_var(--color-primary-glow)] transition-shadow">
-                View my work
-                <ArrowUpRight size={16} className="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
+              <a href="/Amit-Badoni-Resume.pdf" download="Amit-Badoni-Resume.pdf" className="group inline-flex items-center gap-3 bg-accent text-on-accent px-6 py-3.5 rounded-full font-medium text-sm hover:shadow-[0_0_30px_var(--color-primary-glow)] transition-shadow">
+                Download Resume
+                <Download size={16} className="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
               </a>
               <a href="#contact" className="text-sm text-secondary hover:text-accent transition-colors link-underline">Let's talk</a>
             </div>
@@ -60,7 +60,7 @@ export function Hero() {
             <div className="font-mono text-[10px] text-secondary tracking-widest rotate-90 origin-right translate-y-10">SCROLL TO EXPLORE</div>
             <div className="h-24 w-px bg-gradient-to-b from-accent/70 to-transparent" />
             <div className="flex items-center gap-3">
-              <a href={personal.github} target="_blank" rel="noreferrer" aria-label="GitHub" className="text-secondary hover:text-accent transition-colors"><Github size={17} strokeWidth={1.5} /></a>
+              <a href={personal.github} target="_blank" rel="noreferrer" aria-label="GitHub" className="text-secondary hover:text-accent transition-colors"><GithubIcon size={17} strokeWidth={1.5} /></a>
               <a href={personal.linkedin} target="_blank" rel="noreferrer" aria-label="LinkedIn" className="text-secondary hover:text-accent transition-colors"><Linkedin size={17} strokeWidth={1.5} /></a>
             </div>
           </div>
